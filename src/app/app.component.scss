@@ -1,0 +1,30 @@
+p {
+  font-family: Lato;
+}
+
+#results thead tr,
+#results tbody tr {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.firstName {
+  order: 2;
+  width: 100%;
+}
+.lastName {
+  order: 3;
+  width: 100%;
+}
+.email {
+  order: 1;
+  width: 100%;
+}
+
+.example-box.cdk-drag-animating {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.example-chip .cdk-drop-list-dragging {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
